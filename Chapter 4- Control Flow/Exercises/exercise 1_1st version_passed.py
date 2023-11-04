@@ -1,4 +1,4 @@
-# Integer variable
+# String variable
 
 alien_color = 'green'
 
