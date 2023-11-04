@@ -1,4 +1,5 @@
-# Exercise 3: Stripping Names :ballot_box_with_check:
+# Stripping Names
+
 name = "\tHyacinth Ava\n"
 
 print("Unmodified:")
