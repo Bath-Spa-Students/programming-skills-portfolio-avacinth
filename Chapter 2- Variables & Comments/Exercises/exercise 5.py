@@ -1,4 +1,4 @@
-# Exercise 5: USB Shopper :ballot_box_with_check:
+# Integer variable
 
 usb_stick_price = 6
 budget = 50
