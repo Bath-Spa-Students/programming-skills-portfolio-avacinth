@@ -1,4 +1,5 @@
-# A program for a leaderboard
+# Printing strings on different lines
+
 print ("""
 1
 2
