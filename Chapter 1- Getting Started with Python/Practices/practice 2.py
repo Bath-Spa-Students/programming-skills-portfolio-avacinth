@@ -1,3 +1,4 @@
-# Create a program to output "hi" 50 times, without any separator
+# For loop
+
 for i in range (50):
     print("hi")
