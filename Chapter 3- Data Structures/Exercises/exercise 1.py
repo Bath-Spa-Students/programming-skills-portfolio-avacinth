@@ -1,6 +1,8 @@
-# Exercise 1: Names :ballot_box_with_check:
+# Creating a list
 
 names = ["Sofia", "Shaima", "Myen"]
+
+# List index
 
 print(names[0])
 print(names[1])
