@@ -1,8 +1,9 @@
-# Exercise 4: Guest List :ballot_box_with_check:
+# Guest List
 
-# Inviting people to dinner.
+# List inviting people to dinner
 guests = ['Sofia Borcelo', 'Shaima Francisco', 'Myen Naguit', 'RJ Tobias', 'Erich Lubis']
 
+# List index + message
 name = guests[0]
 print(name + ", I would like to invite you to dinner.")
 
