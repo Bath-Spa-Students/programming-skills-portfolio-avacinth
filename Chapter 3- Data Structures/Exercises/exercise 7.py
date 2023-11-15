@@ -1,5 +1,6 @@
-# Exercise 7: Seeing the World :ballot_box_with_check:
+# Seeing the World
 
+# creating a list
 locations = ['Switzerland', 'New York', 'Paris', 'Italy', 'Coron']
 
 print("Original order:")
