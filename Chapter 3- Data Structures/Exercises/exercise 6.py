@@ -1,8 +1,9 @@
-# Exercise 6: Shrinking Guest List :ballot_box_with_check:
+# Shrinking Guest List
 
-# Inviting people to dinner.
+# List inviting people to dinner
 guests = ['Sofia Borcelo', 'Shaima Francisco', 'Myen Naguit', 'RJ Tobias', 'Erich Lubis']
 
+# List index + message
 name = guests[0]
 print(name + ", I would like to invite you to dinner.")
 
@@ -21,11 +22,11 @@ print(name + ", I would like to invite you to dinner.")
 name = guests[1]
 print("\nSorry, " + name + " can't make it to dinner.")
 
-# Myen can't make it! Let's invite Yumi instead.
+# Changing the guest list
 del(guests[1])
 guests.insert(1, 'Yumi Molina')
 
-# Changing the guest list.
+# Updated invites
 name = guests[0]
 print("\n" + name + ", I would like to invite you to dinner.")
 
@@ -41,21 +42,21 @@ print(name + ", I would like to invite you to dinner.")
 name = guests[4]
 print(name + ", I would like to invite you to dinner.")
 
-# Oh no, we can only invite two people because the new table cant make it on time.
+# String variable
 print("Sorry, we can only invite two people to dinner.\n")
 
-# Using pop() to remove guests from the list one at a time until only two names remain in the list.
+# Removing guests
 while len(guests) > 2:
     name = guests.pop()
     print("Sorry, " + name + " there's no room at the table.")
 
-# Telling people they're still invited.
+# Printing a message they are still invited
 for name in guests:
     print(name + ", you are still invited to dinner.")
 
-# Empty out the list.
+# Empty out the list
 del(guests[0])
 del(guests[0])
 
-# Prove the list is empty.
+# Prove the list is empty
 print(guests)
