@@ -1,8 +1,7 @@
-# Exercise 3: Your Own List :ballot_box_with_check:
-
+# make a list
 modes_of_transportation = ["car", "motorcycle", "bicycle", "scooter"]
 
-# Print statements about these items
+# print the statements about the items in the list
 for item in modes_of_transportation:
     if item == "car":
         print(f"I would like to own a {item}.")
