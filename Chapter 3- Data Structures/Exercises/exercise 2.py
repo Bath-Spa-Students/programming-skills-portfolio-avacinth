@@ -1,7 +1,7 @@
-# Exercise 2: Greetings :ballot_box_with_check:
-
+# Make a list
 names = ['Sofia', 'Shaima', 'Myen']
 
+# Accessing elements
 msg = "How are you today, " + names[0] + "?"
 print(msg)
 
