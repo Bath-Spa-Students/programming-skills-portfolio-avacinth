@@ -1,5 +1,4 @@
 # Dictionaries
-
 glossary = {
     'String': 'A data type that presents a sequence of characters in quotes.',
     'Integer': 'used to represent whole numbers, both positive and negative.',
@@ -9,7 +8,6 @@ glossary = {
     }
 
 # String concatenation
-
 word = 'String'
 print("\n" + word + ": " + glossary[word])
 
